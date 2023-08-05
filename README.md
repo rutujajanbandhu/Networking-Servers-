@@ -16,13 +16,13 @@ PART I - Single Process (Server)
 
 PART II - Multi-Process (Server)
 - In a multi-processor server-client architecture, the server can handle multiple client requests simultaneously.
-- 
+  
 - Each client connection is handled by a separate thread or process, enabling the server to process multiple requests concurrently.
-- 
+  
 - Unlike the single-processor setup, the multi-processor architecture allows the server to accept and handle new client requests while still serving existing clients.
-- 
+  
 - In the single-processor code, a second client attempting to connect while the first client is being served would be blocked, resulting in delays and a poor user experience.
-- 
+  
 - However, in the multi-processor setup, if a second client connects while the first client is being served, the server can accept and process the second client's request separately, avoiding delays.
 - 
 - This architecture significantly improves the user experience by reducing waiting times and providing a more responsive service.
