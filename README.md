@@ -62,6 +62,6 @@ The server will start listening for client connections.
   python client.py
 ```
 The client will prompt you to enter the math operation details (e.g., add/subtract/multiply/divide, operands).
-After the Network is successfully connected, the client is able to do the basic calculation like Addition, Multiplication
+After the Network is successfully connected, the client is able to do the basic calculation like Addition, Multiplication, Substraction and Division.
 
 ![App Screenshot](Screenshots/Client_Screenshort.jpg)
