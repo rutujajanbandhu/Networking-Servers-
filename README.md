@@ -54,7 +54,7 @@ Enter the host IP address and the post number.
 ```
 The server will start listening for client connections.
 
-![App Screenshot](Screenshots/Client_Screenshort.jpg)
+![App Screenshot](Screenshots/Server_Screenshort.jpg)
 
 ### Start the Client
 
@@ -62,5 +62,6 @@ The server will start listening for client connections.
   python client.py
 ```
 The client will prompt you to enter the math operation details (e.g., add/subtract/multiply/divide, operands).
+After the Network is successfully connected, the client is able to do the basic calculation like Addition, Multiplication
 
 ![App Screenshot](Screenshots/Client_Screenshort.jpg)
