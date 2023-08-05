@@ -63,4 +63,4 @@ The server will start listening for client connections.
 ```
 The client will prompt you to enter the math operation details (e.g., add/subtract/multiply/divide, operands).
 
-![App Screenshot](https://drive.google.com/file/d/19kLUsR6ZpDv97ih4lE90hsVrjheGBrRN/view?usp=drive_link)
+![App Screenshot](Screenshots/Client_Screenshort.jpg)
