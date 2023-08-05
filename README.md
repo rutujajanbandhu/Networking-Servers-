@@ -51,6 +51,8 @@ After the Network is successfully connected, the client is able to do the basic 
 
 ![App Screenshot](Screenshots/Client_Screenshort.jpg)
 
+In this case if any another client tries to connect a network with the same server, it gives a error cause the server is already connected with a server.
+
 ## PART II - Multi-Process (Server)
 - In a multi-processor server-client architecture, the server can handle multiple client requests simultaneously.
   
@@ -90,3 +92,5 @@ Enter the host IP address and the post number.
   python server.py
 ```
 The server will start listening for client connections.
+
+In this case more than one clients can connect a network with the same server.
