@@ -65,3 +65,28 @@ After the Network is successfully connected, the client is able to do the basic 
 - This architecture significantly improves the user experience by reducing waiting times and providing a more responsive service.
   
 - The multi-processor server-client architecture eliminates errors caused by concurrent client connections, as each client is handled independently by dedicated threads or processes.
+
+# Multi-Process (Server)
+To implement a multi-server (single server handling multiple clients) network
+
+- We'll need the IP address of the host, in order to successfully set a network between server and client
+
+To get the IP address of the host. Run -
+
+```bash
+  ip address show
+```
+
+Enter the host IP address and the post number.
+```bash
+  Enter Host IP Address: 172.31.27.135 
+```
+```bash
+  Enter the Port Number: 5000
+```
+### Start the Server
+
+```bash
+  python server.py
+```
+The server will start listening for client connections.
