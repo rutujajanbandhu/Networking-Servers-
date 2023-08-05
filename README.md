@@ -28,4 +28,39 @@ PART II - Multi-Process (Server)
 - This architecture significantly improves the user experience by reducing waiting times and providing a more responsive service.
   
 - The multi-processor server-client architecture eliminates errors caused by concurrent client connections, as each client is handled independently by dedicated threads or processes.
-  
+
+# Single Process (Server)
+To implement the single-process server-client network
+
+- We'll need the IP address of the host, in order to successfully set a network between server and client.
+
+To get the IP address of the host. Run -
+
+```bash
+  ip address show
+```
+
+Enter the host IP address and the post number.
+```bash
+  Enter Host IP Address: 172.31.27.135 
+```
+```bash
+  Enter the Port Number: 5000
+```
+### Start the Server
+
+```bash
+  python server.py
+```
+The server will start listening for client connections.
+
+![App Screenshot](https://drive.google.com/file/d/1Q_il9-b5NNteOR7AEB_G1_1GOvRlQASP/view?usp=drive_link)
+
+### Start the Client
+
+```bash
+  python client.py
+```
+The client will prompt you to enter the math operation details (e.g., add/subtract/multiply/divide, operands).
+
+![App Screenshot](https://drive.google.com/file/d/19kLUsR6ZpDv97ih4lE90hsVrjheGBrRN/view?usp=drive_link)
