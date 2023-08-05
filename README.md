@@ -54,7 +54,7 @@ Enter the host IP address and the post number.
 ```
 The server will start listening for client connections.
 
-![App Screenshot](https://drive.google.com/file/d/1Q_il9-b5NNteOR7AEB_G1_1GOvRlQASP/view?usp=drive_link)
+![App Screenshot](Screenshots/Client_Screenshort.jpg)
 
 ### Start the Client
 
