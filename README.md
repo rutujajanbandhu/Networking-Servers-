@@ -13,3 +13,19 @@ PART I - Single Process (Server)
 - The server program processes client requests sequentially, one at a time.
   
 - If a second client attempts to connect before the server is ready to accept new connections, it will receive an error message indicating that the server is busy, and the client should try again later.
+
+PART II - Multi-Process (Server)
+- In a multi-processor server-client architecture, the server can handle multiple client requests simultaneously.
+- 
+- Each client connection is handled by a separate thread or process, enabling the server to process multiple requests concurrently.
+- 
+- Unlike the single-processor setup, the multi-processor architecture allows the server to accept and handle new client requests while still serving existing clients.
+- 
+- In the single-processor code, a second client attempting to connect while the first client is being served would be blocked, resulting in delays and a poor user experience.
+- 
+- However, in the multi-processor setup, if a second client connects while the first client is being served, the server can accept and process the second client's request separately, avoiding delays.
+- 
+- This architecture significantly improves the user experience by reducing waiting times and providing a more responsive service.
+- 
+- The multi-processor server-client architecture eliminates errors caused by concurrent client connections, as each client is handled independently by dedicated threads or processes.
+  
